@@ -19,4 +19,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
+      - name: Run ESLint
+        run: eslint . --ext .js
       - run: npm test
