@@ -1,0 +1,20 @@
+{
+  "name": "venue-uri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leon3005/venue-uri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leon3005/venue-uri/issues"
+  },
+  "homepage": "https://github.com/Leon3005/venue-uri#readme"
+}
