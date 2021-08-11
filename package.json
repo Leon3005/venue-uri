@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Leon3005/venue-uri#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "jest": "^27.0.6",
     "slugify": "^1.6.0"
   }
