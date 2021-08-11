@@ -1,15 +1,4 @@
-const slugify = require("slugify");
-
-const generateUri = (town, venue) => {
-  const slugifiedTown = slugify(town, {
-    lower: true,
-  });
-  const slugifiedVenue = slugify(venue, {
-    lower: true,
-  });
-  const uri = `/${slugifiedTown}-events/${slugifiedVenue}`;
-  return uri;
-};
+const generateUri = require("../index");
 
 describe("Slugified URI", () => {
   it("should return a slugified version of the URI", () => {
