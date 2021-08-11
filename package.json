@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "start": "node src/index.js",
+    "check": "node src/checkUri.js"
   },
   "repository": {
     "type": "git",
