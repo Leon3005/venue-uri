@@ -7,7 +7,7 @@ describe("Slugified URI", () => {
     expect(actual).toEqual(expected);
   });
   it("should return a slugified version of the URI", () => {
-    const expected = "/weston-super-mare-events/the-playhouse";
+    const expected = "/weston-super-mare-events/thee-playhouse";
     const actual = generateUri("Weston-Super-Mare", "The Playhouse");
     expect(actual).toEqual(expected);
   });
